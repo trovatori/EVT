@@ -57,7 +57,7 @@
 		<l><app><lem wit="#E">sus un</lem>
 		                    <rdg wit="#C" type="substantive">sobre</rdg></app>
 																			<app><lem wit="E">chivau</lem>
-																			<rdg> wit="E" type="orthographic">chevau</rdg></app>.</l>
+																			<rdg wit="#C" type="orthographic">chevau</rdg></app>.</l>
 		  </lg>
 
 		<space quantity="1" unit="line"/>
