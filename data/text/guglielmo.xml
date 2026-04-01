@@ -59,7 +59,9 @@
 																			<app><lem wit="E">chivau<\lem>
 																			<rdg> wit="E" type="orthographic">chevau</rdg></app>.</l>
 		  </lg>
-		  
+
+		<space quantity="1" unit="line"/>
+		
 		<lg type="stanza" n="2">
 			  <l>No sai en qual hora·m fui natz,</l>
 			<l>no soi alegres ni iratz,</l>
