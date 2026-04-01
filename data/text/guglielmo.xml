@@ -48,18 +48,13 @@ Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che
 		</front>
     <body>
       <lg type="stanza" n="1">
-        <l n="1">
-          <app>
-            <lem wit="#C">The curfew tolls the knell of parting day,</lem>
-            <rdg wit="#E">The knell of day is tolling now,</rdg>
-          </app>
-        </l>
-        <l n="2">
-          <app>
-            <lem wit="#C #E">The lowing herd wind slowly o'er the lea,</lem>
-          </app>
-        </l>
-      </lg>
+        <l>Farai un vers de dreit nien</l>
+        <l>non er de mi ni d'autra gen,</l>
+		<l>non er d'amor ni de joven</l>
+		<l>ni de ren au,</l>
+		<l>qu'enans fo trobatz en durmen</l>
+		<l>sus un chivau</l>
+	  </lg>
     </body>
   </text>
 </TEI>
