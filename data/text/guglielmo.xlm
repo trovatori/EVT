@@ -2,51 +2,36 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Vers</title>
-				<author>Guglielmo IX</author>
-				<respStmt>
-					<resp>Edizione digitale di </resp>
-					<name>Lorenzo Fabiani</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<publisher>Edizioni La Tana della Volpe</publisher>
-				<availability>
-					<p>This document is being made available for demonstration and testing purposes
-						only.</p>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Testo del "vers" tratto dall'edizione Eusebi</p>
-				<p/>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<p>Quello che segue è un esempio di lavoro.</p>
-			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-		</encodingDesc>
-	</teiHeader>
-		<text>
-		<front>
-			<div>
-				<listWit>
-					<head>Lista dei testimoni</head>
-					<witness xml:id="C"> Paris, BnF, fr. 856 </witness>
-					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
-				</listWit>
-			</div>
-			<div>
-
-Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27.
-			</div>
-		
-		
-		</front>
-		<body>
-Prova
+    <fileDesc>
+      <titleStmt>
+        <title>Critical Edition of Example Poem</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="M1">Manuscript 1</witness>
+          <witness xml:id="M2">Manuscript 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <lg type="stanza" n="1">
+        <l n="1">
+          <app>
+            <lem wit="#M1">The curfew tolls the knell of parting day,</lem>
+            <rdg wit="#M2">The knell of day is tolling now,</rdg>
+          </app>
+        </l>
+        <l n="2">
+          <app>
+            <lem wit="#M1 #M2">The lowing herd wind slowly o'er the lea,</lem>
+          </app>
+        </l>
+      </lg>
     </body>
+  </text>
 </TEI>
