@@ -45,7 +45,10 @@
 		</front>
     <body>
       <lg type="stanza" n="1">
-        <l>Farai un vers de dreit nien</l>
+        <l>Farai un vers de 
+			<app><lem wit="#E">dreit</lem>
+				 <rgd> wit="#C">dreyt</rdg></app>
+												nien</l>
         <l>non er de mi ni d'autra gen,</l>
 		<l>non er d'amor ni de joven</l>
 		<l>ni de ren au,</l>
