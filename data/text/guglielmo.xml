@@ -54,7 +54,10 @@
 		<l>ni de ren au,</l>
 		<l>qu'enans <app><lem wit="#E">fo</lem>
 		                    <rdg wit="#C" type="substantive">fo</rdg></app> trobatz en durmen</l>
-		<l>sus un chivau</l>
+		<l><app><lem wit="#E">sus un</lem>
+		                    <rdg wit="#C" type="substantive">sobre</rdg></app>
+																			<app><lem wit="E">chivau<\lem>
+																			<rdg> wit="E" type="orthographic">chevau</rdg></app>.</l>
 		  </lg>
 		  
 		<lg type="stanza" n="2">
