@@ -131,20 +131,7 @@
     "skipWitnesses": "",
     "maxWitsLoadTogether": 5,
 
-    "witnessesGroups": [
-        {
-            "groupName": "",
-            "witnesses": [
-            ""
-            ]
-        },
-        {
-            "groupName": "",
-            "witnesses": [
-                ""
-            ]
-        }
-    ],
+    "witnessesGroups": [ ],
 
     "showInlineCriticalApparatus": false,
     "showInlineSources": false,
