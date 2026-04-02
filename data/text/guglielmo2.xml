@@ -47,40 +47,21 @@ Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che
 
 
 <div type="stanza" n="1">
-<lg type="stanza" rhyme = "aaabab">				
- <l>Farai un vers de 
- 					<app>
-					<lem wit="#E">dreit</lem>
- 					<rdg wit="#C"type="orthographic>dreyt</rdg>
-					</app>	 nien</l>
+
+        <l>Farai un vers de 
+			<app><lem wit="#E">dreit</lem>
+				<rdg wit="#C" type="orthographic">dreyt</rdg></app>
+												nien</l>
         <l>non er de mi ni d'autra gen,</l>
 		<l>non er d'amor ni de joven</l>
 		<l>ni de ren au,</l>
-		<l>qu'enans 
-					<app>
-						<lem wit="#E">fo</lem>
-						<rdg wit="#C" type="substantive">fuy</rdg>
-					</app> trobatz en durmen</l>
-		<l><app>
-						<lem wit="#E">sus un</lem>
-		                <rdg wit="#C" type="substantive">sobre</rdg>
-					</app>
-					<app>
-						<lem wit="E">chivau</lem>
-						<rdg wit="#C" type="orthographic">chevau</rdg>
-					</app>.</l>
+		<l>qu'enans <app><lem wit="#E">fo</lem>
+		                    <rdg wit="#C" type="substantive">fuy</rdg></app> trobatz en durmen</l>
+		<l><app><lem wit="#E">sus un</lem>
+		                    <rdg wit="#C" type="substantive">sobre</rdg></app>
+																			<app><lem wit="E">chivau</lem>
+																			<rdg wit="#C" type="orthographic">chevau</rdg></app>.</l>
 		  </lg>
-	
-	</div>
-
-
-
-
-
-
-
-
-			
-		</body>
-	</text>
+    </body>
+  </text>
 </TEI>
