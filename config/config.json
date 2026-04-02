@@ -133,27 +133,15 @@
 
     "witnessesGroups": [
         {
-            "groupName": "Group 1",
+            "groupName": "",
             "witnesses": [
-                "V",
-                "P",
-                "N",
-                "M",
-                "G",
-                "C",
-                "R"
+            ""
             ]
         },
         {
-            "groupName": "Group 2",
+            "groupName": "",
             "witnesses": [
-                "F",
-                "D",
-                "O",
-                "W",
-                "M5mg",
-                "B",
-                "U"
+                ""
             ]
         }
     ],
@@ -161,7 +149,7 @@
     "showInlineCriticalApparatus": false,
     "showInlineSources": false,
     "showInlineAnalogues": false,
-    "showReadingExponent": true,
+    "showReadingExponent": false,
 
     "toolHeatMap": true,
 
