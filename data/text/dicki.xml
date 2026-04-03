@@ -29,5 +29,9 @@
         </p>
       </div>
     </body>
+	   <div type="edition"
+subtype="diplomatic">
+<p> Prova di una diplomatica </p>
+		   </div>
   </text>
 </TEI>
