@@ -1,41 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI
-  xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Edizione Diplomatica Parallela</title>
-      </titleStmt>
-      <sourceDesc>
-        <!-- Definizione dei due manoscritti -->
-        <msDesc xml:id="MsA">
-          <msIdentifier><repository>Biblioteca Alpha</repository><idno>Cod. 1</idno></msIdentifier>
-        </msDesc>
-        <msDesc xml:id="MsB">
-          <msIdentifier><repository>Biblioteca Beta</repository><idno>Cod. 2</idno></msIdentifier>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Farai un vers de dreit nien</title>
+				<author>Guglielmo IX</author>
+				<respStmt>
+					<resp>Edizione digitale di </resp>
+					<name>Lorenzo Fabiani</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Edizioni La Tana della Volpe</publisher>
+				<availability>
+					<p>This document is being made available for demonstration and testing purposes
+						only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="C"> Paris, BnF, fr. 856 </witness>
+					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
+				</listWit>
+			</sourceDesc> 
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>Quello che segue è un esempio di lavoro.</p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+		<text>
+		<front>
+		
+			<div>
+Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27.
+			</div>
+		
+		
+		</front>
+		<body>
+<pb n="C, f. 230v" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f528.highres"/>
+<pb	n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
+
+
+<div type="stanza" n="1">
+        <l>Farai un vers de 
+			<app><lem wit="#E">dreit</lem><rdg wit="#C" type="orthographic">dreyt</rdg></app>
+												nien</l>
+        <l>non er de mi ni d'autra gen,</l>
+		<l>non er d'amor ni de joven</l>
+		<l>ni de ren au,</l>
+		<l>qu'enans <app><lem wit="#E">fo</lem><rdg wit="#C" type="substantive">fuy</rdg></app> trobatz en durmen</l>
+		<l><app><lem wit="#E">sus un</lem><rdg wit="#C" type="substantive">sobre</rdg></app>
+			<app><lem wit="E">chivau</lem><rdg wit="#C" type="orthographic">chevau</rdg></app>.</l>
+		  </lg>
+
+  <l n="1">
+<app>
+	<rdg wit="#E">Experience</rdg>
+	<rdg wit="#C">Experiment</rdg>
+	</app> though noon Auctoritee...
+</l>
+
+  <facsimile>
+	<surface xml:id="C">
+		<graphic url="https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
+	</surface>
+	</facsimile>
+	<text>
+	<body>
+<pb facs="#C"/>
+prova prova
+	</body>
+     </text>
   
-  <text>
-    <body>
-      <!-- Uso di <listApp> per un allineamento puntuale -->
-      <listApp>
-        <app>
-          <rdg wit="#MsA">Incipit liber <expan>sancti</expan> Iacobi.</rdg>
-          <rdg wit="#MsB">Qui comenza lo libro de san Iacopo.</rdg>
-        </app>
-        
-        <app>
-          <rdg wit="#MsA">Capitulum <num value="1">I</num>.</rdg>
-          <rdg wit="#MsB">Capitolo primo.</rdg>
-        </app>
-      </listApp>
     </body>
   </text>
 </TEI>
