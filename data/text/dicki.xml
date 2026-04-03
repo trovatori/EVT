@@ -9,9 +9,12 @@
       <publicationStmt>
         <p>Information about publication or distribution</p>
       </publicationStmt>
-      <sourceDesc>
-        <p>Information about the source manuscript or book</p>
-      </sourceDesc>
+          <sourceDesc>
+				<listWit>
+					<witness xml:id="C"> Paris, BnF, fr. 856 </witness>
+					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
+					</listWit>
+			</sourceDesc> 
     </fileDesc>
   </teiHeader>
   <text>
@@ -19,7 +22,7 @@
       <div type="transcription">
         <pb n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/> <!-- Page break -->
         <p>
-          <lb n="1"/>This is a <choice><orig>diplomatique</orig><reg>diplomatic</reg></choice> 
+          <lb n="1"/>This <lem wit="#E">is</lem><rdg wit="#C" type="substantive">eis</rdg></app> a <choice><orig>diplomatique</orig><reg>diplomatic</reg></choice> 
           <lb n="2"/>transcription of the text. 
           <lb n="3"/><add place="margin">Added text</add>
           <lb n="4"/>original <choice><abbr>sp.</abbr><expan>spelling</expan></choice> is kept.
