@@ -20,8 +20,10 @@
 			</publicationStmt>
 			<sourceDesc>
 				<listWit>
-					<witness xml:id="C"> Paris, BnF, fr. 856 </witness>
+					<witness xml:id="C"> Paris, BnF, fr. 856 
+					<bibl>Available from <ptr target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc51104x"/> (ultimo accesso aprile 2026).</witness></bibl>
 					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
+					<bibl>Available from <ptr target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc19912q"/> (ultimo accesso aprile 2026).</witness></bibl>
 				</listWit>
 			</sourceDesc> 
 		</fileDesc>
@@ -44,6 +46,8 @@ Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che
 		<body>
 <pb n="C, f. 230v" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f528.highres"/>
 <pb	n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
+<pb n="C, f. 231r" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f529.highres"/>
+<pb	n="E, f. 115" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
 
 
 <div type="stanza" n="1">
