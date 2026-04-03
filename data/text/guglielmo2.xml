@@ -21,10 +21,8 @@
 			<sourceDesc>
 				<listWit>
 					<witness xml:id="C"> Paris, BnF, fr. 856 
-					<bibl>Available from <ptr target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc51104x"/> (ultimo accesso aprile 2026).</witness></bibl>
 					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
-					<bibl>Available from <ptr target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc19912q"/> (ultimo accesso aprile 2026).</witness></bibl>
-				</listWit>
+					</listWit>
 			</sourceDesc> 
 		</fileDesc>
 		<encodingDesc>
