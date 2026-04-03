@@ -1,82 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Farai un vers de dreit nien</title>
-				<author>Guglielmo IX</author>
-				<respStmt>
-					<resp>Edizione digitale di </resp>
-					<name>Lorenzo Fabiani</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<publisher>Edizioni La Tana della Volpe</publisher>
-				<availability>
-					<p>This document is being made available for demonstration and testing purposes
-						only.</p>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<listWit>
-					<witness xml:id="C"> Paris, BnF, fr. 856 </witness>
-					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
-				</listWit>
-			</sourceDesc> 
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<p>Quello che segue è un esempio di lavoro.</p>
-			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-		</encodingDesc>
-	</teiHeader>
-		<text>
-		<front>
-		
-			<div>
-Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27.
-			</div>
-		
-		
-		</front>
-		<body>
-<pb n="C, f. 230v" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f528.highres"/>
-<pb	n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
-
-
-<div type="stanza" n="1">
-        <l>Farai un vers de 
-			<app><lem wit="#E">dreit</lem><rdg wit="#C" type="orthographic">dreyt</rdg></app>
-												nien</l>
-        <l>non er de mi ni d'autra gen,</l>
-		<l>non er d'amor ni de joven</l>
-		<l>ni de ren au,</l>
-		<l>qu'enans <app><lem wit="#E">fo</lem><rdg wit="#C" type="substantive">fuy</rdg></app> trobatz en durmen</l>
-		<l><app><lem wit="#E">sus un</lem><rdg wit="#C" type="substantive">sobre</rdg></app>
-			<app><lem wit="E">chivau</lem><rdg wit="#C" type="orthographic">chevau</rdg></app>.</l>
-		  </lg>
-
-  <l n="1">
-<app>
-	<rdg wit="#E">Experience</rdg>
-	<rdg wit="#C">Experiment</rdg>
-	</app> though noon Auctoritee...
-</l>
-
-  <facsimile>
-	<surface xml:id="C">
-		<graphic url="https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
-	</surface>
-	</facsimile>
-	<text>
-	<body>
-<pb facs="#C"/>
-prova prova
-	</body>
-     </text>
-  
+<?xml-model href="http://tei-c.org" type="application/xml" schematypens="http://relaxng.org"?>
+<TEI xmlns="http://tei-c.org">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Minimal Diplomatic Edition</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Information about publication or distribution</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source manuscript or book</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription">
+        <pb n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/> <!-- Page break -->
+        <p>
+          <lb n="1"/>This is a <choice><orig>diplomatique</orig><reg>diplomatic</reg></choice> 
+          <lb n="2"/>transcription of the text. 
+          <lb n="3"/><add place="margin">Added text</add>
+          <lb n="4"/>original <choice><abbr>sp.</abbr><expan>spelling</expan></choice> is kept.
+        </p>
+      </div>
     </body>
   </text>
 </TEI>
