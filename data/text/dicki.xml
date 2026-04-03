@@ -19,18 +19,11 @@
   </teiHeader>
   <text>
     <body>
-      <div type="transcription">
-        <pb n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/> <!-- Page break -->
-        <p>
-          <lb n="1"/>This is a <choice><orig>diplomatique</orig><reg>diplomatic</reg></choice> 
-          <lb n="2"/>transcription of the text. 
-          <lb n="3"/><add place="margin">Added text</add>
-          <lb n="4"/>original <choice><abbr>sp.</abbr><expan>spelling</expan></choice> is kept.
-        </p>
-      </div>
-    </body>
-	   <div type="edition" subtype="diplomatic">
+    	<div type="edition" subtype="diplomatic">
 <p> Prova di una diplomatica </p>
+		   </div>
+		<div type="edition" subtype="critical">
+<p> Prova di una critica </p>
 		   </div>
   </text>
 </TEI>
