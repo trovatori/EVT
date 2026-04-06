@@ -21,7 +21,7 @@
 			<sourceDesc>
 				<listWit>
 					<witness xml:id="C"> Paris, BnF, fr. 856
-						<abbr type="siglum">C</abbr>  <name>Manoscritto provenzale C</name>, <date>XIV secolo</date></witness>
+						<abbr type="siglum">C</abbr> <name>Manoscritto provenzale C</name>, <date>XIV secolo</date></witness>
 					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
 					</listWit>
 			</sourceDesc> 
@@ -36,19 +36,14 @@
 		<text>
 		<front xml:id="front">
   <div type="section" xml:id="preface">
-   <head>Preface</head>
+   <head>Prefazione</head>
    <p>General introductory remarks about the edition.</p>
    <div type="section" xml:id="preface-section-1">
-This is a section within the preface. Editors should use sections (distinguished by <div>) to organize the content of the edition's preface.
-	Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27.
-   </div>
- <div type="section" xml:id="bibliography">
-   <head>Bibliography</head>
-This is where the bibliography for the edition is listed, including manuscript descriptions, and lists of early editions, modern editions, and other sources cited in the current edition. For more information on encoding the items in the bibliography see "Bibliography" below.
-  </div>
+<p>This is a section within the preface. Editors should use sections (distinguished by <div>) to organize the content of the edition's preface.
+	Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27 </p>
+</div>
  </front>
-			
-		<body>
+			<body>
 <pb n="C, f. 230v" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f528.highres"/>
 <pb	n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
 <pb n="C, f. 231r" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f529.highres"/>
