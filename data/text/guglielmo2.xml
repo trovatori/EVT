@@ -42,11 +42,11 @@
 		<front xml:id="front">
 			<div type="section" xml:id="preface">
 				<head>Prefazione</head>
-				<p>General introductory remarks about the edition.</p>
+				<p>Questaa edizione digitale si fonda su quella a cura di Mario Eusebi.</p>
 			</div>
 			<div type="section" xml:id="preface-section-1">
-				<head>Sezione 1</head>
-				<p>This is a section within the preface. Editors should use sections (distinguished by) to organize the content of the edition's preface. Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27 </p>
+				<head>Osservazioni sulla tradizione manoscritta</head>
+				<p>Uno dei due manoscritti, E, pone tra la sesta strofe e la tornada una strofe che Eusebi considera un allotropo della sesta, perché contiene un verso,«non aus dire lo tort que m'a», che contraddice il v. 32, verso che riprende corentemenete il v. 27 </p>
 			</div>
 		</front>
 		<body>
@@ -54,7 +54,9 @@
 			<pb	n="E, f. 114" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f118.highres"/>
 			<pb n="C, f. 231r" facs= "https://gallica.bnf.fr/ark:/12148/btv1b8419246t/f529.highres"/>
 			<pb	n="E, f. 115" facs= "https://gallica.bnf.fr/ark:/12148/btv1b6000801v/f119.highres"/>
+			
 			<div type="stanza" n="1">
+				<head>Farai un vers de dreit nien</head>
 				<lg>
 					<l>Farai un vers de 
 			
