@@ -21,12 +21,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<listWit>
-					<witness xml:id="C"> Paris, BnF, fr. 856
-						
-						<abbr type="siglum">C</abbr>
-						<name>Manoscritto provenzale C</name>, 
-						<date>XIV secolo</date>
-					</witness>
+					<witness xml:id="C"> Paris, BnF, fr. 856</witness>
 					<witness xml:id= "E"> Paris, BnF, fr. 1749 </witness>
 				</listWit>
 			</sourceDesc>
